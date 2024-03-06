@@ -1,0 +1,111 @@
+ .left-portion{
+     background-color: rgb(248, 243, 243);
+      z-index: 1000;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      padding: 10px 10px;
+      border-radius: 20px;
+      margin: 10px 5px 10px 10px;
+      border: 1px  solid rgb(197, 194, 194);
+    
+    }
+
+    
+  @media only screen and (max-width: 767px) {
+   
+
+    .left-portion{
+      margin: 10px !important;
+    }
+  }
+
+
+ .heading{
+   background-color: rgb(248, 243, 243);
+   padding: 15px;
+   border-radius: 10px;
+  }
+
+  .heading h4{
+    margin: 0px !important;
+  }
+
+  .sticky{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    
+  }
+
+  .container{
+    background-color: #fbf1f1;
+    border: 2px solid rgb(248, 243, 243);
+    padding: 5px !important;
+    border-radius: 10px !important;
+    margin: 5px 0px;
+  }
+
+   .container p{
+     color: black;
+     margin: 0px;
+  
+  }
+
+  i{
+    padding-right: 3px;
+  }
+
+.x-div{
+    background-color: rgb(248, 243, 243);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+ 
+ .x-div p{
+    background-color: white;
+   
+ }
+
+ .bottom{
+    padding: 0px !important;
+    margin-top: 156.5px;
+    
+}
+
+.bottom button{
+  padding:2px 5px;
+}  
+
+  .container:hover{
+    background-color: rgb(214, 199, 199);
+  }
+
+th:hover{
+  color: rgb(214, 199, 199);
+}
+
+.produstc-list{
+    padding-left: 60px ;
+}
+
+.product-list-items{
+    background-color: white;
+    border: 2px solid rgb(248, 243, 243) ;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.products{
+    background-color: rgb(202, 193, 193);
+    margin-bottom: 0px;
+}
+
+.changeSales-background {
+  /* background-color: rgb(202, 193, 193); */
+   background-color: rgb(202, 193, 193);
+}
+
+.changeProduct-background{
+  background-color: #fbf1f1;
+}
